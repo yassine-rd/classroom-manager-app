@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+:root{
+    /* Change nav theme color */
+    --hue-color: 202;
+    /*Purple 250 - Green 142 - Blue 202 - Pink 340*/
+
+    --nav-color: hsl(var(--hue-color), 69%, 61%);;
+    --background-color: hsl(var(--hue-color), 69%, 96%);;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--background-color);
+}
+
+nav{
+    background-color: var(--nav-color);
+}
+.card {
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.w-60 {
+    width: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+.social-links li a {
+    -webkit-border-radius: 50%;
+    background-color: rgba(89,206,181,.85);
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    font-size: 12px;
+}
+a {
+    color: #707070;
+    cursor: pointer;
+}
