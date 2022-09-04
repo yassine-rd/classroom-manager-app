@@ -1,4 +1,11 @@
-# ClassroomManagerApp
+# [Classroom Manager App](https://github.com/yassine-rd/classroom-manager-app)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/yassine-rd/classroom-manager-app?color=red&label=repository%20size)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yassine-rd/classroom-manager-app?color=red)
+![GitHub language count](https://img.shields.io/github/languages/count/yassine-rd/classroom-manager-app)
+![GitHub top language](https://img.shields.io/github/languages/top/yassine-rd/classroom-manager-app)
+![GitHub](https://img.shields.io/github/license/yassine-rd/classroom-manager-app?color=yellow)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/yassine-rd/classroom-manager-app?color=brightgreen&label=commits)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
